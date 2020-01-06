@@ -1,0 +1,886 @@
+[12-Feb-2019 15:02:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:02:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:02:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:02:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:02:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:02:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:02:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:02:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:02:37 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:02:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:02:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:02:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:02:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:02:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:02:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:03:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:03:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:03:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:03:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:03:00 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:03:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:03:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:03:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:03:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:03:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:03:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:03:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:03:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:03:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:03:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:03:11 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:03:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:03:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:03:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:03:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:03:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:03:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:03:23 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:03:23 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:03:23 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:03:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:04:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:04:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:04:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:04:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:05:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:05:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:05:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:05:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:05:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:05:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:05:42 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:05:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:05:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:05:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:05:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:06:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:06:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:06:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:06:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:06:56 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:06:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:06:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:13:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:13:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:13:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:13:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:14:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:14:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:14:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:14:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:14:16 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'localhost' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:14:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:14:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:14:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:14:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:14:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:14:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:14:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:15:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:15:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:15:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:15:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:15:15 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'localhost' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:15:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:15:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:15:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:15:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:15:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:15:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:15:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:15:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:15:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:15:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:15:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:15:29 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'localhost' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:15:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:15:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:54:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:54:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:54:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:54:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:54:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:54:17 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:54:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:54:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:54:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:54:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:54:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:54:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:54:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:54:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:54:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:54:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 15:54:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 15:54:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 15:54:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 15:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 15:59:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 15:59:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 15:59:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 15:59:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:02:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:02:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:02:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:02:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:02:00 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:02:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:02:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:03:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:03:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:03:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:03:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:10:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:10:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:10:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:10:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:10:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:10:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:10:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:10:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:10:23 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:10:23 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:10:23 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:10:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:10:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:10:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:10:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:14:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:14:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:14:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:14:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:14:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; PacientData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/PacientData.php on line 2
+[12-Feb-2019 16:14:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:14:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:14:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:14:34 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:14:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/PacientData.php(50): Model::many(NULL, Object(PacientData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/reservations-view.php(27): PacientData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+ in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 16:14:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:14:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:14:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:14:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:14:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ReservationData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php on line 2
+[12-Feb-2019 16:14:50 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:14:50 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:14:50 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:14:50 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:14:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php(100): Model::many(NULL, Object(ReservationData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/oldreservations-view.php(18): ReservationData::getOld()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->st in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 16:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:15:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; PacientData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/PacientData.php on line 2
+[12-Feb-2019 16:15:02 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:15:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:15:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:15:02 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:15:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/PacientData.php(50): Model::many(NULL, Object(PacientData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/reservations-view.php(27): PacientData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+ in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 16:16:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:16:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:16:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:16:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:16:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ReservationData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php on line 2
+[12-Feb-2019 16:16:08 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:16:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:16:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:16:08 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:16:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php(63): Model::many(NULL, Object(ReservationData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/home-view.php(3): ReservationData::getEvery()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {m in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 16:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ReservationData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php on line 2
+[12-Feb-2019 16:16:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:16:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:16:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:16:41 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 16:16:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php(63): Model::many(NULL, Object(ReservationData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/home-view.php(3): ReservationData::getEvery()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {m in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 16:16:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:16:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:16:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:16:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:17:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:17:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:17:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:17:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:17:37 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:17:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:17:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:17:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:17:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:17:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:17:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:23:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:23:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:23:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:23:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:23:26 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:23:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:23:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:23:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:23:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:23:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:23:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:39:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:39:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:39:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:39:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:39:48 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:39:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:39:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:39:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:39:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:39:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:39:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:40:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:40:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:40:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:40:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:40:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:40:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:40:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:40:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:40:53 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:46:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:46:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:46:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:46:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:46:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:46:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:46:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:46:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:46:32 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 16:46:32 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 16:46:32 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 16:46:32 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 16:46:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 16:46:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 16:46:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 16:46:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:46:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:46:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:46:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 16:46:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 16:46:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 16:46:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 16:46:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 17:07:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 17:07:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 17:07:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 17:07:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 17:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 17:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 17:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 17:38:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 17:40:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 17:40:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 17:40:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 17:40:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 17:40:49 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 17:40:49 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 17:40:49 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 17:40:49 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 17:40:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 17:40:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 17:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 17:40:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 17:40:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 17:40:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 17:40:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:56:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 7
+[12-Feb-2019 19:56:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:56:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:56:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:56:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:56:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:56:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:56:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:56:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:56:41 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:56:41 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:56:41 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 19:56:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 19:56:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 19:56:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 19:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 19:57:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:57:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:57:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:57:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:57:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:57:54 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:57:54 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:57:54 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 19:57:54 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jen8lob5qfrp'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 19:57:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 19:57:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 19:57:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 19:57:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:57:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:57:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:57:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:59:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:59:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:59:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:59:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:59:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:59:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:59:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:59:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 19:59:21 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:59:21 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 19:59:21 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 19:59:21 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 19:59:21 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 19:59:21 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 19:59:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 19:59:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 19:59:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 19:59:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 19:59:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:07:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:07:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:07:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:07:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:07:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:07:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:07:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:07:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:07:47 UTC] PHP Notice:  Undefined variable: user in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 20:07:47 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 20:07:47 UTC] PHP Notice:  Undefined index: .. in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 20:07:47 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: NO) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:07:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:07:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 20:07:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 20:09:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:09:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:09:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:09:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:09:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:09:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:09:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:09:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:09:53 UTC] PHP Notice:  Undefined index: GOLDBN in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 7
+[12-Feb-2019 20:09:53 UTC] PHP Notice:  Undefined index: Ytumamatambien1 in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 8
+[12-Feb-2019 20:09:53 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:09:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:09:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 14
+[12-Feb-2019 20:09:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php:17
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include()
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#6 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/processlogin-view.php on line 17
+[12-Feb-2019 20:12:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:12:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:12:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:12:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:06 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:12:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:12:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:12:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:12:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:12:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:12:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:12:16 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:18:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:18:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:18:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:18:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:18:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ReservationData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php on line 2
+[12-Feb-2019 20:18:10 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:18:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:18:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:18:10 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php(63): Model::many(NULL, Object(ReservationData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/home-view.php(3): ReservationData::getEvery()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {m in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:18:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:18:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:18:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:18:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:18:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:18:33 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:18:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:18:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:18:33 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:18:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php(51): Model::many(NULL, Object(UserData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/users-view.php(31): UserData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:18:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:18:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:18:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:18:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:19:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:03 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:03 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:03 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:19:04 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:04 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:04 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php(51): Model::many(NULL, Object(UserData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/users-view.php(31): UserData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:19:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:19:25 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:25 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:44
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php(43): Model::one(NULL, Object(UserData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/edituser-view.php(1): UserData::getById('4')
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 44
+[12-Feb-2019 20:19:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:19:36 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:36 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:36 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:36 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php(51): Model::many(NULL, Object(UserData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/users-view.php(31): UserData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:19:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; UserData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php on line 2
+[12-Feb-2019 20:19:39 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:39 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:39 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:39 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/UserData.php(51): Model::many(NULL, Object(UserData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/users-view.php(31): UserData::getAll()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {main}
+  thrown in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:19:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:19:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:19:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:19:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:19:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ReservationData has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php on line 2
+[12-Feb-2019 20:19:40 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'GOLDBN'@'ip-107-180-47-17.ip.secureserver.net' (using password: YES) in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 10
+[12-Feb-2019 20:19:40 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 11
+[12-Feb-2019 20:19:40 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:40 UTC] PHP Warning:  Executor::doit(): Couldn't fetch mysqli in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Executor.php on line 10
+[12-Feb-2019 20:19:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php:26
+Stack trace:
+#0 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/model/ReservationData.php(63): Model::many(NULL, Object(ReservationData))
+#1 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/view/home-view.php(3): ReservationData::getEvery()
+#2 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/View.php(31): include('/home/jen8lob5q...')
+#3 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/layouts/layout.php(178): View::load('login')
+#4 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Module.php(12): include('/home/jen8lob5q...')
+#5 /home/jen8lob5qfrp/public_html/bookmedik-master/core/app/init.php(9): Module::loadLayout('index')
+#6 /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php(15): include('/home/jen8lob5q...')
+#7 /home/jen8lob5qfrp/public_html/bookmedik-master/index.php(25): Lb->start()
+#8 {m in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Model.php on line 26
+[12-Feb-2019 20:21:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:21:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:21:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:21 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:21:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:21:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:21:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:21:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:21:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:21:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:56 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:21:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:21:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:21:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:22:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:22:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:22:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:22:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8
+[12-Feb-2019 20:22:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:22:01 UTC] PHP Fatal error:  Cannot declare class Database, because the name is already in use in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:24:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Database has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Database.php on line 2
+[12-Feb-2019 20:24:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbForm has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbForm.php on line 3
+[12-Feb-2019 20:24:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; lbInputText has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/forms/lbInputText.php on line 3
+[12-Feb-2019 20:24:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Lb has a deprecated constructor in /home/jen8lob5qfrp/public_html/bookmedik-master/core/controller/Lb.php on line 8

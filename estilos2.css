@@ -1,0 +1,51 @@
+body{
+	background: #fff;
+}
+
+form{
+	width: 450px;
+	margin:auto;
+	background: #2db3cb;
+	padding: 10px 20px;
+	box-sizing: border-box; 
+	border-radius: 15px 0px 45px 0px;
+}
+
+h2{
+	color: #000;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+
+}
+
+input , textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%; 
+}
+
+#boton{
+	background: #072E60;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+@media screen (max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
