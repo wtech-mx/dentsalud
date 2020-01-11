@@ -7,8 +7,8 @@ class Database {
 	public static $db;
 	public static $con;
 	function Database(){
-		$this->user="Dent-Salud-user";
-		$this->pass="Ytumamatambien16486&";
+		$this->user="root";
+		$this->pass="";
 		$this->host="localhost";
 		$this->ddbb="DentSalud-DB1";
 	}
