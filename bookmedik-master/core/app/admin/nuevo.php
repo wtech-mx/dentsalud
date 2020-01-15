@@ -1,9 +1,6 @@
 <?php 
-
-
-
 require 'config.php';
-require 'functions.php';
+require '../functions.php';
 
 // Conectamos a la base de datos
 $conexion = conexion($bd_config);
@@ -39,7 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		':thumb' => $_FILES['thumb']['name']
 	));
 
-	header('Location: ../?view=blog ');
+
+	header('Location: ../../../?view=blog ');
 }
 
 

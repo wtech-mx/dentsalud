@@ -1,21 +1,4 @@
-<?php 
-	
-	define('RUTA', 'http://localhost/dentsalud/bookmedik-master/core/app/admin/');
-
-	//DB TRABJANDO EN LOCALHOST
-	$bd_config = array(
-		'basedatos' => 'dentsalud-db',
-		'usuario' => 'root',
-		'pass' => ''
-	);
-
-	$blog_config = array(
-		'post_por_pagina'=> '10',
-		'carpeta_imagenes' => 'imagenes/'
-	);
-
-	$conexion = conexion($bd_config);
-	$posts = obtener_post($blog_config['post_por_pagina'], $conexion);
+<?php
 
 # Funcion para conectarnos a la base de datos.
 # Return: la conexion o false si hubo un problema.
@@ -112,121 +95,13 @@ function fecha($fecha){
 	$fecha = $dia . ' de ' . $meses[$mes] . ' del ' . $year;
 	return $fecha;
 }
-	
+
+# Funcion para comprobar la session del admin
+function comprobarSession(){
+	// Comprobamos si la session esta iniciada
+	if (!isset($_SESSION['admin'])) {
+		header('Location: ' . RUTA);
+	}
+}
+
 ?>
-
-<section class="main-content-wrapper">
-    <section id="main-content">
-
-		<div class="contenedor p-5">
-			<h2>Panel de Control</h2>
-			<!--<a href="admin/nuevo.php" class="btn btn-success p-3" style="color: #fff">Nuevo Post</a>-->
-
-            <!-- modals -->
-            
-            <?php include("agregar_blog-view.php"); ?>
-            <!-- /end modals -->
-
-			<?php foreach($posts as $post): ?>
-			<section class="post">
-				<article>
-					<h2 class="titulo"><?php echo $post['id'] . '.- ' . $post['titulo']; ?></h2>
-					<a type="button" class="btn btn-warning" href="<?php echo RUTA ?>editar.php?id=<?php echo $post['id']; ?>" style="color: #000">Editar</a> 
-					<a type="button" class="btn btn-primary" target="blank" href="../../../../blog/single.php?id=<?php echo $post['id']; ?>">Ver</a>
-					<a type="button" class="btn btn-danger" href="<?php echo RUTA ?>borrar.php?id=<?php echo $post['id']; ?>" style="color: #fff">Borrar</a>
-
-				</article>
-			</section>
-			<?php endforeach; ?>
-
-		</div>
-
-			<section class="paginacion">
-				<ul>
-					<?php 
-						# Establecemos el numero de paginas
-						$numero_paginas = numero_paginas($blog_config['post_por_pagina'], $conexion);
-					?>
-					<!-- Mostramos el boton para retroceder una pagina -->
-					<?php if (pagina_actual() === 1): ?>
-						<li class="disabled">&laquo;</li>
-					<?php else: ?>
-						<li><a href="index.php?p=<?php echo pagina_actual() - 1?>">&laquo;</a></li>
-					<?php endif; ?>
-
-					<!-- Creamos un elemento li por cada pagina que tengamos -->
-					<?php for ($i = 1; $i <= $numero_paginas; $i++): ?>
-						<!-- Agregamos la clase active en la pagina actual -->
-						<?php if (pagina_actual() === $i): ?>
-							<li class="active">
-								<?php echo $i; ?>
-							</li>
-						<?php else: ?>
-							<li>
-								<a href="?view=blog<?php echo $i?>"><?php echo $i; ?></a>
-							</li>
-						<?php endif; ?>
-					<?php endfor; ?>
-
-					<!-- Mostramos el boton para avanzar una pagina -->
-					<?php if (pagina_actual() == $numero_paginas): ?>
-						<li class="disabled">&raquo;</li>
-					<?php else: ?>
-						<li><a href="?view=blog<?php echo pagina_actual() + 1; ?>">&raquo;</a></li>
-					<?php endif; ?>
-				</ul>
-			</section>	
-
-
-	</section>
-</section>
-
-    <style type="text/css" media="screen">
-    /* --- Paginacion --- */
-
-.paginacion {
-    margin-bottom: 30px;
-}
-
-.paginacion ul {
-    list-style: none;
-    text-align: center;
-}
-
-.paginacion ul li {
-    display: inline-block;
-    margin:0 5px;
-    color:#fff;
-}
-
-.paginacion ul li a {
-    display: block;
-    padding:10px 20px;
-    background: #595959;
-    color:#fff;
-}
-
-.paginacion ul li a:hover {
-    background: #051240;
-    text-decoration: none;
-}
-
-.paginacion ul .active {
-    background: #051240;
-    padding:10px 20px;
-}
-
-.paginacion ul .disabled{
-    background: #a8a8a8;
-    padding:10px 20px;
-    cursor: not-allowed;
-}
-
-.paginacion ul .disabled:hover {
-    background: #a8a8a8;
-}
-
-.white{
-    color: #fff;
-}
-</style>

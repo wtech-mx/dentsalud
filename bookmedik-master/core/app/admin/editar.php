@@ -8,8 +8,6 @@ if(!$conexion){
 	header('Location: ../error.php');
 }
 
-
-
 // Determinamos si se estan enviado datos por el metodo POST o GET
 # Si se envian por POST significa que el usuario los ha enviado desde el formulario
 # por lo que tomamos los datos y los cambiamos en la base de datos.
@@ -54,12 +52,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		':id' => $id
 	));
 
-			header('Location: ../?view=blog ');
+	header('Location: ../../../?view=blog ');
 } else {
 	$id_articulo = id_articulo($_GET['id']);
 
 	if (empty($id_articulo)) {
-			header('Location: ../?view=blog ');
+	header('Location: ../../../?view=blog ');
 	}
 
 	// Obtenemos el post por id
@@ -67,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	// Si no hay post en el ID entonces redirigimos.
 	if (!$post) {
-		header('Location: ../?view=blog ');
+	header('Location: ../../../?view=blog ');
 		
 	}
 	$post = $post[0];

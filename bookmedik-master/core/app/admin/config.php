@@ -1,13 +1,12 @@
 <?php
 
-define('SERVIDOR', 'http://localhost/DentSalud-DB1/');
-//define('RUTA', 'http://localhost/Eago-frontend/blog/');
-//
+define('RUTA', 'http://localhost/dentsalud/bookmedik-master/core/app/admin/');
+
 //define('RUTA', 'https://eago.com.mx/blog/');
 
 //DB TRABJANDO EN LOCALHOST
 $bd_config = array(
-	'basedatos' => 'DentSalud-DB1',
+	'basedatos' => 'dentsalud-db',
 	'usuario' => 'root',
 	'pass' => ''
 );

@@ -20,6 +20,6 @@ if (!$id) {
 $statement = $conexion->prepare('DELETE FROM articulos WHERE id = :id');
 $statement->execute(array('id' => $id));
 
-		header('Location: ../?view=blog ');
+	header('Location: ../../../?view=blog ');
 
 ?>
