@@ -80,6 +80,18 @@
                       </a>
                   </li>
                   <li>
+                      <a href="./?view=blog">
+                          <i class="fa fa-area-chart"></i>
+                          <p>Blog</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="./?view=slide">
+                          <i class="fa fa-users"></i>
+                          <p>Slide</p>
+                      </a>
+                  </li>
+                  <li>
                       <a href="./?view=users">
                           <i class="fa fa-users"></i>
                           <p>Usuarios</p>
