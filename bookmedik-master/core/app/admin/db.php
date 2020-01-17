@@ -3,7 +3,7 @@
 
   // Parametros a configurar para la conexion de la base de datos 
   $host = "localhost";    // sera el valor de nuestra BD 
-  $basededatos = "DentSalud-DB1";    // sera el valor de nuestra BD 
+  $basededatos = "dentsalud-db";    // sera el valor de nuestra BD 
   $usuariodb = "root";    // sera el valor de nuestra BD 
   $clavedb = "";    // sera el valor de nuestra BD 
   //Lista de Tablas
@@ -13,7 +13,7 @@
 
 
 function con(){
-	return new mysqli("localhost","root","","DentSalud-DB1");
+	return new mysqli("localhost","root","","dentsalud-db");
 }
 
 function insert_img($title, $folder, $image){
